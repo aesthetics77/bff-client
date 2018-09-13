@@ -1,0 +1,6 @@
+query {
+    lessons {
+        id
+        name
+    }
+}
