@@ -1,0 +1,10 @@
+query {
+    getStudentById($id: String!) {
+        name
+        age
+        sex
+        lessons {
+          name
+        }
+    }
+}

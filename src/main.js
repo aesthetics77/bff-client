@@ -5,14 +5,21 @@ import router from './router/index'
 
 import {
   Style,
-  Button,
-  TabBar,
-  Input
+  TabBar
 } from 'cube-ui'
+
+import './plugins/element.js'
+import {
+  Card,
+  Input,
+  Button
+} from 'element-ui'
+import 'element-ui/lib/theme-chalk/index.css';
 
 Vue.use(Button)
 Vue.use(TabBar)
 Vue.use(Input)
+Vue.use(Card)
 Vue.config.productionTip = false
 new Vue({
   apolloProvider: createProvider(),

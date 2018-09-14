@@ -1,6 +1,4 @@
-query {
-    lessons {
+query lessons {
         id
         name
     }
-}
